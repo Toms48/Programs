@@ -49,36 +49,57 @@ public class Trilero {
 		
 		//Mientras(Se quiera jugar)
 			while(respuesta == 's'){
-				
-			aleatorio = random.nextInt(3);
 			
+		//Generar posicion bolita	
+			aleatorio = random.nextInt(3);
+		//Fin_Generar posicion bolita
+		
+		//Escoger cubilete y mostrar resultado	
 			switch(aleatorio){
 			
 				case 0:
 					System.out.println("La bola estara en la izquierda");
+					System.out.println("        ______             ______             ______        ");
+					System.out.println("       #      #           #      #           #      #          ");
+					System.out.println("      #        #         #        #         #        #         ");
+					System.out.println("     #          #       #          #       #          #        ");
+					System.out.println("    #            #     #            #     #            #       ");
+					System.out.println("   #              #   #              #   #              #      ");
+					System.out.println("  #                # #                # #                #     ");
 					System.out.println(" ");
+						System.out.println("Escoja cubilete");
+						System.out.println(" ");
+						System.out.println("i----> Izquierda");
+						System.out.println("c----> Centro");
+						System.out.println("d----> Derecha");
+						
 				break;
 				
 				case 1:
 					System.out.println("La bola estara en el centro");
+					System.out.println("        ______             ______             ______        ");
+					System.out.println("       #      #           #      #           #      #          ");
+					System.out.println("      #        #         #        #         #        #         ");
+					System.out.println("     #          #       #          #       #          #        ");
+					System.out.println("    #            #     #            #     #            #       ");
+					System.out.println("   #              #   #              #   #              #      ");
+					System.out.println("  #                # #                # #                #     ");
 					System.out.println(" ");
 				break;
 				
 				case 2:
 					System.out.println("La bola estara en la derecha");
+					System.out.println("        ______             ______             ______        ");
+					System.out.println("       #      #           #      #           #      #          ");
+					System.out.println("      #        #         #        #         #        #         ");
+					System.out.println("     #          #       #          #       #          #        ");
+					System.out.println("    #            #     #            #     #            #       ");
+					System.out.println("   #              #   #              #   #              #      ");
+					System.out.println("  #                # #                # #                #     ");
 					System.out.println(" ");
 				break;
 			}//Fin_Switch
-			
-		
-		//Generar posicion bolita
-		
-		//Fin_Generar posicion bolita
-		
-		
-		
-		//Escoger cubilete y mostrar resultado
-			
+						
 		//Fin_Escoger cubilete y mostrar resultado
 		
 		
