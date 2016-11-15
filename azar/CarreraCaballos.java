@@ -166,7 +166,7 @@ public class CarreraCaballos {
 		
 		
 			}//Fin_if
-			}while(dinero>0);
+			}while((dinero>0)&&(caballo !=0));
 		do{
 		System.out.print("¿Quiere usar el programa de nuevo? ");
 			respuesta = Character.toLowerCase(teclado.next( ).charAt(0) );
