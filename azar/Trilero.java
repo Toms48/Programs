@@ -39,7 +39,7 @@
  * 	Mientras(Se quiera jugar) //(2)
  * 		Generar posicion bolita
  * 		Escoger cubilete y mostrar resultado
- * 	Preguntar si quieres jugar de nuevo y validar  ///(6)
+ * 	Preguntar si quieres jugar de nuevo y validar  //(6)
  * 	Fin_Mientras
  * Fin
  * 
